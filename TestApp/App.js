@@ -8,7 +8,7 @@
 
 import React from 'react';
 import type {Node} from 'react';
-import {version} from './app.json';
+import {version,name} from './app.json';
 import {
   SafeAreaView,
   ScrollView,
@@ -64,7 +64,7 @@ const App: () => Node = () => {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar 
         hidden={true} 
-        barStyle={isDarkMode ? 'dark-content' : 'dark-content'}
+        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
       />
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
@@ -76,6 +76,9 @@ const App: () => Node = () => {
           }}>
           <Section title="Step One">
             <Text>App Version {version}</Text>
+          </Section>
+          <Section title="Step Dois">
+            <Text>App name: {name}</Text>
           </Section>
         </View>
       </ScrollView>
