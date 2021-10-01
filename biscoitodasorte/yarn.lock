@@ -21,7 +21,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.15.0.tgz#2dbaf8b85334796cafbb0f5793a90a2fc010b176"
   integrity sha512-0NqAC1IJE0S0+lL1SWFMxMkz1pKCNCjI4tr2Zx4LJSXxCLAdr6KyArnY+sno5m3yH9g737ygOyPABDsnXkpxiA==
 
-"@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.12.9", "@babel/core@^7.14.0", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
+"@babel/core@7.15.5", "@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.14.0", "@babel/core@^7.7.2", "@babel/core@^7.7.5":
   version "7.15.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.15.5.tgz#f8ed9ace730722544609f90c9bb49162dc3bf5b9"
   integrity sha512-pYgXxiwAgQpgM1bNkZsDEq85f0ggXMA5L7c+o3tskGMh2BunCI9QUwB9Z4jpvXUOuMdyGKiGKQiRe11VS6Jzvg==
@@ -701,7 +701,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.16"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.15.4", "@babel/runtime@^7.8.4":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -1175,7 +1175,7 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
-"@react-native-community/eslint-config@^2.0.0":
+"@react-native-community/eslint-config@2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-config/-/eslint-config-2.0.0.tgz#35dcc529a274803fc4e0a6b3d6c274551fb91774"
   integrity sha512-vHaMMfvMp9BWCQQ0lNIXibOJTcXIbYUQ8dSUsMOsrXgVkeVQJj88OwrKS00rQyqwMaC4/a6HuDiFzYUkGKOpVg==
@@ -1368,7 +1368,7 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/styled-components-react-native@^5.1.1":
+"@types/styled-components-react-native@5.1.1":
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/@types/styled-components-react-native/-/styled-components-react-native-5.1.1.tgz#dcee7171b3844ce00a8303d8f5fcaeae7b25915d"
   integrity sha512-1CJvTkaTb9YJXjmecZAZNyMHlvGdNtunRrOeyaXYdOzLKgwABIeEcZiO/TKT7CAzLdgPwBUj5Z4ixe4Vk5ndlw==
@@ -1377,7 +1377,7 @@
     "@types/react-native" "*"
     "@types/styled-components" "*"
 
-"@types/styled-components@*", "@types/styled-components@^5.1.14":
+"@types/styled-components@*", "@types/styled-components@5.1.14":
   version "5.1.14"
   resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.14.tgz#e9cf8cdb5eef9d139628183a84c083f630635d67"
   integrity sha512-d6P1/tyNytqKwam3cQXq7a9uPtovc/mdAs7dBiz1YbDdNIT3X4WmuFU78YdSYh84TXVuhOwezZ3EeKuNBhwsHQ==
@@ -4789,7 +4789,7 @@ metro-minify-uglify@0.66.2:
   dependencies:
     uglify-es "^3.1.9"
 
-metro-react-native-babel-preset@0.66.2, metro-react-native-babel-preset@^0.66.0:
+metro-react-native-babel-preset@0.66.2:
   version "0.66.2"
   resolved "https://registry.yarnpkg.com/metro-react-native-babel-preset/-/metro-react-native-babel-preset-0.66.2.tgz#fddebcf413ad4ea617d4f47f7c1da401052de734"
   integrity sha512-H/nLBAz0MgfDloSe1FjyH4EnbokHFdncyERvLPXDACY3ROVRCeUyFNo70ywRGXW2NMbrV4H7KUyU4zkfWhC2HQ==
@@ -5651,7 +5651,7 @@ react-is@^16.7.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-codegen@^0.0.7:
+react-native-codegen@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/react-native-codegen/-/react-native-codegen-0.0.7.tgz#86651c5c5fec67a8077ef7f4e36f7ed459043e14"
   integrity sha512-dwNgR8zJ3ALr480QnAmpTiqvFo+rDtq6V5oCggKhYFlRjzOmVSFn3YD41u8ltvKS5G2nQ8gCs2vReFFnRGLYng==
@@ -5660,7 +5660,7 @@ react-native-codegen@^0.0.7:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
-react-native-splash-screen@^3.2.0:
+react-native-splash-screen@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-native-splash-screen/-/react-native-splash-screen-3.2.0.tgz#d47ec8557b1ba988ee3ea98d01463081b60fff45"
   integrity sha512-Ls9qiNZzW/OLFoI25wfjjAcrf2DZ975hn2vr6U9gyuxi2nooVbzQeFoQS5vQcbCt9QX5NY8ASEEAtlLdIa6KVg==
@@ -6394,7 +6394,7 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
 
-styled-components@^5.3.1:
+styled-components@5.3.1:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-5.3.1.tgz#8a86dcd31bff7049c2ed408bae36fa23f03f071a"
   integrity sha512-JThv2JRzyH0NOIURrk9iskdxMSAAtCfj/b2Sf1WJaCUsloQkblepy1jaCLX/bYE+mhYo3unmwVSI9I5d9ncSiQ==
@@ -6642,7 +6642,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.4.3:
+typescript@4.4.3:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
   integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
