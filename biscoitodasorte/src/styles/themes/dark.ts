@@ -5,7 +5,7 @@ export default {
     text: '#a0a0a0',
     background: '#181818',
     quote: '#03D1AB',
-    button: '#3B9CFF',
+    button: '#03D1AB',
     buttonText: "#f0f0f0",
   },
   font: {

@@ -1,13 +1,18 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState, useContext } from 'react';
 import SplashScreen from 'react-native-splash-screen';
 
-import styled, { DefaultTheme, ThemeProvider } from 'styled-components/native';
+import styled, {
+  DefaultTheme,
+  ThemeProvider,
+  ThemeContext,
+} from 'styled-components/native';
 import light from './styles/themes/light';
 import dark from './styles/themes/dark';
 
 import biscoito from './assets/biscoito.png';
 import biscoitoAberto from './assets/biscoitoAberto.png';
 
+import usePersistedState from './utils/usePersistedState';
 import {
   Image,
   useColorScheme,
@@ -20,8 +25,7 @@ const Container = styled.SafeAreaView`
     flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: ${(props) =>
-      props.theme.colors.background ? props.theme.colors.background : '#f00'};
+    background-color: ${(props) => props.theme.colors.background};
   `,
   Quote = styled.Text`
     color: ${(props) => props.theme.colors.quote};
@@ -88,6 +92,16 @@ const App = () => {
     clearTimeout(timer);
     setText('Abrir novo biscoito?');
   }, [timer]);
+
+  useEffect(async () => {
+    const getTheme = async () =>
+      (await useColorScheme()) === 'dark' ? dark : light;
+    const t = await getTheme()
+      .then((response) => response)
+      .catch((err) => err);
+    console.log({ t });
+    setTheme(t === dark ? dark : light);
+  }, [theme, quote, CurrentTheme]);
 
   SplashScreen.hide();
   return (
