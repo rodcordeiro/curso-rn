@@ -1349,17 +1349,17 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react-native@*":
-  version "0.65.1"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.65.1.tgz#7342158e10ea5088c225bb669dd4ef15aad0a2f7"
-  integrity sha512-pyRmTnvjYORIXuL8+ZhoI8gqamTE/8Lo9bU/1Ife3VOTgeFzY9rHnx3Tna7OOixBW5Exh2PcHSkJXma4FENC0g==
-  dependencies:
-    "@types/react" "*"
-
 "@types/react-native@0.65.2":
   version "0.65.2"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.65.2.tgz#2fd4b5c60a4e2a02668dc304de0d7192013f5d14"
   integrity sha512-UjDkN6rvgZkvVl2726bCPjIupyBUt40Uv+FhtDPwGj6n7ShiHggAfv6Xl7Pzbc36L5qUIWSmBrrFBLJXZ4MEig==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-native@^0.65":
+  version "0.65.13"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.65.13.tgz#e400317cdb57a9b09112d3ee21100cadb550be16"
+  integrity sha512-yJ5QyXZFgDD7Cjwi7Bd32VACVqOJgRzb6KiZJPi4GJpwxmycMaw+EvPk3PQ/3dwQmiHM4iSRWcxtuE/xvcsMXg==
   dependencies:
     "@types/react" "*"
 
@@ -1382,13 +1382,13 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/styled-components-react-native@5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@types/styled-components-react-native/-/styled-components-react-native-5.1.1.tgz#dcee7171b3844ce00a8303d8f5fcaeae7b25915d"
-  integrity sha512-1CJvTkaTb9YJXjmecZAZNyMHlvGdNtunRrOeyaXYdOzLKgwABIeEcZiO/TKT7CAzLdgPwBUj5Z4ixe4Vk5ndlw==
+"@types/styled-components-react-native@5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@types/styled-components-react-native/-/styled-components-react-native-5.1.2.tgz#18b6d461e76142ca50f85f7bb3beb2c26e90770e"
+  integrity sha512-zwJRvBNIut/of1ubxAJDIKuPA00EsM7wYMBWVA5bnjRYpc4ufVo5ltlIUavyTvEWVPSnRw7kMu18OGzNV5d/yw==
   dependencies:
     "@types/react" "*"
-    "@types/react-native" "*"
+    "@types/react-native" "^0.65"
     "@types/styled-components" "*"
 
 "@types/styled-components@*", "@types/styled-components@5.1.14":
