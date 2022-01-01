@@ -22,7 +22,7 @@
     "@babel/runtime": "7.15.4",
     "@react-native-community/eslint-config": "2.0.0",
     "@types/react-native": "0.65.2",
-    "@types/styled-components": "5.1.16",
+    "@types/styled-components": "5.1.19",
     "@types/styled-components-react-native": "5.1.2",
     "@typescript-eslint/eslint-plugin": "4.32.0",
     "@typescript-eslint/parser": "4.32.0",
