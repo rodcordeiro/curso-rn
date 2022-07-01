@@ -1306,10 +1306,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@react-native-async-storage/async-storage@1.17.5":
-  version "1.17.5"
-  resolved "https://registry.yarnpkg.com/@react-native-async-storage/async-storage/-/async-storage-1.17.5.tgz#8cc3edd305d09a3c252d88921f0d2846a0444f25"
-  integrity sha512-0XT5zZa3mh8XfAFYytq9hPyI6w0FJEBED4pjeLc17pkNF9tND86fsTX2pQFr15uV0nvfYeHisbd/mM7bpGrWKA==
+"@react-native-async-storage/async-storage@1.17.7":
+  version "1.17.7"
+  resolved "https://registry.yarnpkg.com/@react-native-async-storage/async-storage/-/async-storage-1.17.7.tgz#f9213e8cc6202a8c29df5a4da1db588f3b0fa8a9"
+  integrity sha512-mDtWhCcpxzrZhA95f6zi0pnBsjBEZW1LKZWfxVXG0UfaWpPxDBCKowNk2xjRTytckZeVhjmPJPtBU+8QNQcR0A==
   dependencies:
     merge-options "^3.0.4"
 
