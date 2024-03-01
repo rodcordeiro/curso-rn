@@ -18,8 +18,8 @@
     "styled-components": "5.3.11"
   },
   "devDependencies": {
-    "@babel/core": "7.22.11",
-    "@babel/runtime": "7.22.11",
+    "@babel/core": "7.24.0",
+    "@babel/runtime": "7.24.0",
     "@react-native-community/eslint-config": "2.0.0",
     "@types/react-native": "0.67.7",
     "@types/styled-components": "5.1.34",
